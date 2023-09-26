@@ -30,4 +30,12 @@ int deleteElement(int L[], int n, int x) {
 	}
 	
 	if (i == n) move = n;
+	
+	// K + 1부터 마지막 원소까지 앞으로 자리 이동
+	for (i = k; i < n -1; i++) {
+		L[i] = L[i + 1];
+		move++;
+	} 
+	
+	return move;
 }
