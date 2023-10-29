@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include"stackS.h"
 
@@ -44,3 +45,4 @@ void printStack() {
 		printf("%d ", stack[i]);
 	printf("] ");
 }
+
